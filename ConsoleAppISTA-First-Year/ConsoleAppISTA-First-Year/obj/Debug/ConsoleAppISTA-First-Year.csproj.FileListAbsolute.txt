@@ -1,0 +1,7 @@
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\bin\Debug\ConsoleAppISTA-First-Year.exe.config
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\bin\Debug\ConsoleAppISTA-First-Year.exe
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\bin\Debug\ConsoleAppISTA-First-Year.pdb
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\obj\Debug\ConsoleAppISTA-First-Year.csprojAssemblyReference.cache
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\obj\Debug\ConsoleAppISTA-First-Year.csproj.CoreCompileInputs.cache
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\obj\Debug\ConsoleAppISTA-First-Year.exe
+M:\ISTA\blog internet\1ere annee\workflow\CSharpIstaTdiFirstYear\ConsoleAppISTA-First-Year\ConsoleAppISTA-First-Year\obj\Debug\ConsoleAppISTA-First-Year.pdb

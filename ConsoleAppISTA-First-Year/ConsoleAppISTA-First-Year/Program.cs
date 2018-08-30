@@ -43,7 +43,14 @@ namespace ConsoleAppISTA_First_Year
             this.vitesse_courante = 0;
             this.vitesse_maximale = 0;
         }
-
+        //Destructeur
+        //Garbage Collector
+        //ramasse miettes
+        ~vehicule()
+        {
+            //Destructeur GC.collect()
+            //libération des ressources
+        }
         public void creer_un_vehicule()
         {
 
@@ -67,6 +74,45 @@ namespace ConsoleAppISTA_First_Year
             //return base.ToString();
             return "Vehicule : " + this.marque.ToString() + " Vitesse : " + this.vitesse_courante + " / " + this.vitesse_maximale;
           
+        }
+    }
+
+
+    class voiture : vehicule
+    {
+        private string attributA;
+        public voiture():base()
+        {
+
+        }
+        public voiture(string new_marque, int new_puissance, int new_vitesse_courante, int new_vitesse_maximale,string a) : base(new_marque,new_puissance,new_vitesse_courante,new_vitesse_maximale)
+        {
+            this.AttributA = a;
+        }
+
+        public string AttributA { get => attributA; set => attributA = value; }
+
+        public void demarrer(string v)
+        {
+            AttributA += " bingo "+v;
+        }
+
+        public void demarrer(int x)
+        {
+            AttributA += x.ToString();
+        }
+
+        public override bool Equals(object obj)
+        {
+            //return base.Equals(obj);
+            if (this.AttributA.Equals(((voiture)obj).AttributA))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 

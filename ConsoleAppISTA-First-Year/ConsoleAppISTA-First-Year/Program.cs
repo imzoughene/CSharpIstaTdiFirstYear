@@ -6,6 +6,47 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppISTA_First_Year
 {
+    interface TestInterface
+    {
+        double Propriete1 { get; }
+        double Methode1(int X);
+    }
+
+    class implementation : TestInterface
+    {
+
+        private double attribut1;
+        public double Propriete1 {
+
+            get { return attribut1; }
+            set { attribut1 = value; }
+        }
+
+
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public double Methode1(int X)
+        {
+            // throw new NotImplementedException();
+            attribut1 = Math.Sqrt(X);
+            return attribut1;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+    }
+
 
 
     class vehicule

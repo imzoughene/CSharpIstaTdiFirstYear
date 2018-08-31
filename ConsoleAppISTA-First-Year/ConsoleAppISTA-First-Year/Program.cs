@@ -63,6 +63,13 @@ namespace ConsoleAppISTA_First_Year
         {
 
         }
+        //Polymorphisme
+        public virtual int getNumber()
+        {
+            return 6;
+        }
+
+
         public void accelerer(int taux)
         {
             this.vitesse_courante += taux;
@@ -96,6 +103,14 @@ namespace ConsoleAppISTA_First_Year
         {
             AttributA += " bingo "+v;
         }
+
+
+        //Polymorphisme
+        public override int getNumber()
+        {
+            return 11;
+        }
+
 
         public void demarrer(int x)
         {
@@ -139,6 +154,17 @@ namespace ConsoleAppISTA_First_Year
             Console.WriteLine(q.ToString());
             recopie_s.accelerer(45);
             Console.WriteLine(recopie_s.ToString());
+            Console.ReadLine();
+
+
+            //Polymorphisme
+            vehicule[] my_vehicules= new vehicule[2];
+            my_vehicules[0] = new vehicule();
+            my_vehicules[1] = new voiture();
+            for(int i = 0; i < my_vehicules.Length; i++)
+            {
+                Console.WriteLine(my_vehicules[i].getNumber());
+            }
             Console.ReadLine();
         }
     }

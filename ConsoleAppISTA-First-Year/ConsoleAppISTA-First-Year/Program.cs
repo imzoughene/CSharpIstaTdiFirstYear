@@ -207,6 +207,27 @@ namespace ConsoleAppISTA_First_Year
                 Console.WriteLine(my_vehicules[i].getNumber());
             }
             Console.ReadLine();
+
+
+            int x = 0;
+            try
+            {
+                int y = 100 / x;
+                Console.WriteLine("Y : " + y);
+
+            }
+            catch (ArithmeticException e)
+            {
+                Console.WriteLine("Arithmetic Exception Handler {0}", e.ToString());
+            }catch(Exception r)
+            {
+                Console.WriteLine("Generic Exception Handler {0}", r.ToString());
+            }
+            finally
+            {
+                Console.WriteLine("Executing finally block");
+            }
+            Console.ReadLine();
         }
     }
 }
